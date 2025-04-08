@@ -2295,7 +2295,6 @@
 	"definitions": {
 		"count": {
 			"type": "integer",
-			"format" : "int64",
 			"description": "The total number of entities in the entityset"
 		},
 		"navigationLink": {
