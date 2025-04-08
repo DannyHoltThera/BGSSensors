@@ -45,7 +45,7 @@
 						"description": "The number of elements to skip from the collection",
 						"required": false,
 						"type": "integer",
-						"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$top",
@@ -53,7 +53,7 @@
 						"description": "The number of elements to return",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$count",
@@ -105,7 +105,7 @@
 						"description": "The id of the requested entity",
 						"required": true,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					}, {
 						"name": "$select",
 						"in": "query",
@@ -172,7 +172,7 @@
 						"description": "The id of the requested entity",
 						"required": true,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$skip",
@@ -180,7 +180,7 @@
 						"description": "The number of elements to skip from the collection",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$top",
@@ -188,7 +188,7 @@
 						"description": "The number of elements to return",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$count",
@@ -239,7 +239,7 @@
 						"description": "The id of the requested entity",
 						"required": true,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					}, {
 						"name": "$select",
 						"in": "query",
@@ -290,7 +290,7 @@
 						"description": "The id of the requested entity",
 						"required": true,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$skip",
@@ -298,7 +298,7 @@
 						"description": "The number of elements to skip from the collection",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$top",
@@ -306,7 +306,7 @@
 						"description": "The number of elements to return",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$count",
@@ -356,7 +356,7 @@
 						"description": "The id of the requested entity",
 						"required": true,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					}, {
 						"name": "$select",
 						"in": "query",
@@ -408,7 +408,7 @@
 						"description": "The id of the requested entity",
 						"required": true,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$skip",
@@ -416,7 +416,7 @@
 						"description": "The number of elements to skip from the collection",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$top",
@@ -424,7 +424,7 @@
 						"description": "The number of elements to return",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$count",
@@ -474,7 +474,7 @@
 						"description": "The id of the requested entity",
 						"required": true,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					}, {
 						"name": "$select",
 						"in": "query",
@@ -534,7 +534,7 @@
 						"description": "The id of the requested entity",
 						"required": true,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$skip",
@@ -542,7 +542,7 @@
 						"description": "The number of elements to skip from the collection",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$top",
@@ -550,7 +550,7 @@
 						"description": "The number of elements to return",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$count",
@@ -600,7 +600,7 @@
 						"description": "The id of the requested entity",
 						"required": true,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$skip",
@@ -608,7 +608,7 @@
 						"description": "The number of elements to skip from the collection",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$top",
@@ -616,7 +616,7 @@
 						"description": "The number of elements to return",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$count",
@@ -667,7 +667,7 @@
 						"description": "The number of elements to skip from the collection",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$top",
@@ -675,7 +675,7 @@
 						"description": "The number of elements to return",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$count",
@@ -727,7 +727,7 @@
 						"description": "The id of the requested entity",
 						"required": true,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					}, {
 						"name": "$select",
 						"in": "query",
@@ -765,7 +765,7 @@
 						"description": "The id of the requested entity",
 						"required": true,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$skip",
@@ -773,7 +773,7 @@
 						"description": "The number of elements to skip from the collection",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$top",
@@ -781,7 +781,7 @@
 						"description": "The number of elements to return",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$count",
@@ -831,7 +831,7 @@
 						"description": "The number of elements to skip from the collection",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$top",
@@ -839,7 +839,7 @@
 						"description": "The number of elements to return",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$count",
@@ -890,7 +890,7 @@
 						"description": "The id of the requested entity",
 						"required": true,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					}, {
 						"name": "$select",
 						"in": "query",
@@ -955,7 +955,7 @@
 						"description": "The id of the requested entity",
 						"required": true,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$skip",
@@ -963,7 +963,7 @@
 						"description": "The number of elements to skip from the collection",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$top",
@@ -971,7 +971,7 @@
 						"description": "The number of elements to return",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$count",
@@ -1029,7 +1029,7 @@
 						"description": "The number of elements to return",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$count",
@@ -1080,7 +1080,7 @@
 						"description": "The id of the requested entity",
 						"required": true,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					}, {
 						"name": "$select",
 						"in": "query",
@@ -1132,7 +1132,7 @@
 						"description": "The id of the requested entity",
 						"required": true,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					}, {
 						"name": "$select",
 						"in": "query",
@@ -1198,7 +1198,7 @@
 						"description": "The id of the requested entity",
 						"required": true,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$skip",
@@ -1206,7 +1206,7 @@
 						"description": "The number of elements to skip from the collection",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$top",
@@ -1214,7 +1214,7 @@
 						"description": "The number of elements to return",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$count",
@@ -1262,7 +1262,7 @@
 						"description": "The id of the requested entity",
 						"required": true,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					}, {
 						"name": "$select",
 						"in": "query",
@@ -1317,7 +1317,7 @@
 						"description": "The number of elements to skip from the collection",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$top",
@@ -1325,7 +1325,7 @@
 						"description": "The number of elements to return",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$count",
@@ -1373,7 +1373,7 @@
 						"description": "The id of the requested entity",
 						"required": true,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					}, {
 						"name": "$select",
 						"in": "query",
@@ -1422,7 +1422,7 @@
 						"description": "The id of the requested entity",
 						"required": true,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$skip",
@@ -1430,7 +1430,7 @@
 						"description": "The number of elements to skip from the collection",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$top",
@@ -1438,7 +1438,7 @@
 						"description": "The number of elements to return",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$count",
@@ -1486,7 +1486,7 @@
 						"description": "The id of the requested entity",
 						"required": true,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					}, {
 						"name": "$select",
 						"in": "query",
@@ -1550,7 +1550,7 @@
 						"description": "The number of elements to skip from the collection",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$top",
@@ -1558,7 +1558,7 @@
 						"description": "The number of elements to return",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$count",
@@ -1606,7 +1606,7 @@
 						"description": "The id of the requested entity",
 						"required": true,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$skip",
@@ -1614,7 +1614,7 @@
 						"description": "The number of elements to skip from the collection",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$top",
@@ -1622,7 +1622,7 @@
 						"description": "The number of elements to return",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$count",
@@ -1672,7 +1672,7 @@
 						"description": "The id of the requested entity",
 						"required": true,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					}, {
 						"name": "$select",
 						"in": "query",
@@ -1707,7 +1707,7 @@
 						"description": "The id of the requested entity",
 						"required": true,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$skip",
@@ -1715,7 +1715,7 @@
 						"description": "The number of elements to skip from the collection",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$top",
@@ -1723,7 +1723,7 @@
 						"description": "The number of elements to return",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$count",
@@ -1773,7 +1773,7 @@
 						"description": "The number of elements to skip from the collection",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$top",
@@ -1781,7 +1781,7 @@
 						"description": "The number of elements to return",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$count",
@@ -1833,7 +1833,7 @@
 						"description": "The id of the requested entity",
 						"required": true,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					}, {
 						"name": "$select",
 						"in": "query",
@@ -1883,7 +1883,7 @@
 						"description": "The id of the requested entity",
 						"required": true,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$skip",
@@ -1891,7 +1891,7 @@
 						"description": "The number of elements to skip from the collection",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$top",
@@ -1899,7 +1899,7 @@
 						"description": "The number of elements to return",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$count",
@@ -1956,7 +1956,7 @@
 						"description": "The number of elements to return",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$count",
@@ -2008,7 +2008,7 @@
 						"description": "The id of the requested entity",
 						"required": true,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					}, {
 						"name": "$select",
 						"in": "query",
@@ -2066,7 +2066,7 @@
 						"description": "The number of elements to skip from the collection",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$top",
@@ -2074,7 +2074,7 @@
 						"description": "The number of elements to return",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$count",
@@ -2124,7 +2124,7 @@
 						"description": "The number of elements to skip from the collection",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$top",
@@ -2132,7 +2132,7 @@
 						"description": "The number of elements to return",
 						"required": false,
 						"type": "integer",
-				"format" : "int32"
+						"format": "int32"
 					},
 					{
 						"name": "$count",
@@ -2469,9 +2469,7 @@
 			"type": "object",
 			"properties": {
 				"@iot.count": "#/definitions/count",
-				"@iot.nextLink": {
-					"$ref": "#/definitions/nextLink"
-				},
+				"@iot.nextLink": "#/definitions/nextLink",
 				"value": {
 					"type": "array",
 					"items": {
@@ -2958,7 +2956,7 @@
 				"description": "The id of the requested entity",
 				"required": true,
 				"type": "integer",
-				"format" : "int32"
+				"format": "int32"
 			},
 			"expand": {
 				"name": "$expand",
@@ -2987,7 +2985,7 @@
 				"description": "The number of elements to skip from the collection",
 				"required": false,
 				"type": "integer",
-				"format" : "int32"
+				"format": "int32"
 			},
 			"top": {
 				"name": "$top",
@@ -2995,7 +2993,7 @@
 				"description": "The number of elements to return",
 				"required": false,
 				"type": "integer",
-				"format" : "int32"
+				"format": "int32"
 			}
 		},
 		"responses": {
