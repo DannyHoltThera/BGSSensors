@@ -2316,10 +2316,7 @@
 					"type": "integer",
 					"description": "The Id of the datastream"
 				},
-				"@iot.selfLink": {
-					"type": "string",
-					"description": "The direct link to the entity"
-				},
+				"@iot.selfLink": "#/definitions/selfLink",
 				"description": {
 					"type": "string",
 					"description": "A description of the datastream"
@@ -2422,10 +2419,7 @@
 					"type": "integer",
 					"description": "The Id of the feature of interest"
 				},
-				"@iot.selfLink": {
-					"type": "string",
-					"description": "The direct link to the entity"
-				},
+				"@iot.selfLink": "#/definitions/selfLink",
 				"description": {
 					"type": "string",
 					"description": "A description of the feature of interest"
@@ -2526,10 +2520,7 @@
 					"type": "integer",
 					"description": "The Id of the location"
 				},
-				"@iot.selfLink": {
-					"type": "string",
-					"description": "The direct link to the entity"
-				},
+				"@iot.selfLink": "#/definitions/selfLink",
 				"description": {
 					"type": "string",
 					"description": "A description of the location"
@@ -2618,10 +2609,7 @@
 					"type": "integer",
 					"description": "The Id of the observation"
 				},
-				"@iot.selfLink": {
-					"type": "string",
-					"description": "The direct link to the entity"
-				},
+				"@iot.selfLink": "#/definitions/selfLink",
 				"parameters": {
 					"type": "object",
 					"properties": {
@@ -2700,10 +2688,7 @@
 					"type": "integer",
 					"description": "The Id of the observed property"
 				},
-				"@iot.selfLink": {
-					"type": "string",
-					"description": "The direct link to the entity"
-				},
+				"@iot.selfLink": "#/definitions/selfLink",
 				"definition": {
 					"type": "string",
 					"description": "A URI for the observed property providing a representation of its definition, ideally through reference to a community based vocabulary"
@@ -2746,10 +2731,7 @@
 					"type": "integer",
 					"description": "The Id of the sensor type"
 				},
-				"@iot.selfLink": {
-					"type": "string",
-					"description": "The direct link to the entity"
-				},
+				"@iot.selfLink": "#/definitions/selfLink",
 				"description": {
 					"type": "string",
 					"description": "A description of the sensor type"
@@ -2810,10 +2792,7 @@
 					"type": "integer",
 					"description": "The Id of the thing"
 				},
-				"@iot.selfLink": {
-					"type": "string",
-					"description": "The direct link to the entity"
-				},
+				"@iot.selfLink": "#/definitions/selfLink",
 				"description": {
 					"type": "string",
 					"description": "A description of the thing"
