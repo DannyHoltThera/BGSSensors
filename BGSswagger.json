@@ -2295,6 +2295,7 @@
 	"definitions": {
 		"count": {
 			"type": "integer",
+			"format" : "int64",
 			"description": "The total number of entities in the entityset"
 		},
 		"navigationLink": {
@@ -2403,10 +2404,7 @@
 		"Datastreams": {
 			"type": "object",
 			"properties": {
-				"@iot.count": {
-					"type": "integer",
-					"format" : "int64"
-				},
+				"@iot.count": "#/definitions/count",
 				"@iot.nextLink": {
 					"$ref": "#/definitions/nextLink"
 				},
