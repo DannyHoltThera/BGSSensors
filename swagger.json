@@ -2511,7 +2511,8 @@
           "description": "The Id of the datastream"
         },
         "@iot.selfLink": {
-          "$ref": "#/definitions/selfLink"
+          "type": "string",
+          "description": "The direct link to the entity"
         },
         "description": {
           "type": "string",
