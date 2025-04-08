@@ -2404,7 +2404,7 @@
 			"type": "object",
 			"properties": {
 				"@iot.count": {
-					"type": "integer",
+					"type": "number",
 					"description": "The total number of entities in the entityset"
 				},
 				"@iot.nextLink": {
