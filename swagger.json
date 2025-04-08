@@ -2499,6 +2499,10 @@
   ],
   "basePath": "/FROST-Server",
   "definitions": {
+    "selfLink": {
+      "type": "string",
+      "description": "The direct link to the entity"
+    },
     "Datastream": {
       "type": "object",
       "properties": {
@@ -3073,10 +3077,6 @@
     "nextLink": {
       "type": "string",
       "description": "The link to the next page of entities"
-    },
-    "selfLink": {
-      "type": "string",
-      "description": "The direct link to the entity"
     }
   },
   "x-components": {
