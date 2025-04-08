@@ -2333,8 +2333,20 @@
 					"description": "The observation type for the datastream, as defined by the OGC Observations and Measurements standard"
 				},
 				"observedArea": {
-					"type": "string",
-					"description": "The bounding box of the spatial extent of all features of interest associated with observations belonging to the Datastream"
+					"type": "object",
+					"properties": {
+						"type": {
+							"type": "string",
+							"description": "The type of the observed area, as defined by the OGC Observations and Measurements standard"
+						},
+						"coordinates": {
+							"type": "array",
+							"items": {
+								"type": "number"
+							},
+							"description": "The coordinates of the observed area, as defined by the OGC Observations and Measurements standard"
+						}
+					}
 				},
 				"phenomenonTime": {
 					"type": "string",
@@ -2392,7 +2404,8 @@
 			"type": "object",
 			"properties": {
 				"@iot.count": {
-					"$ref": "#/definitions/count"
+					"type": "integer",
+					"description": "The total number of entities in the entityset"
 				},
 				"@iot.nextLink": {
 					"$ref": "#/definitions/nextLink"
@@ -2495,7 +2508,8 @@
 			"type": "object",
 			"properties": {
 				"@iot.count": {
-					"$ref": "#/definitions/count"
+					"type": "integer",
+					"description": "The total number of entities in the entityset"
 				},
 				"@iot.nextLink": {
 					"$ref": "#/definitions/nextLink"
@@ -2586,7 +2600,8 @@
 			"type": "object",
 			"properties": {
 				"@iot.count": {
-					"$ref": "#/definitions/count"
+					"type": "integer",
+					"description": "The total number of entities in the entityset"
 				},
 				"@iot.nextLink": {
 					"$ref": "#/definitions/nextLink"
@@ -2649,7 +2664,8 @@
 			"type": "object",
 			"properties": {
 				"@iot.count": {
-					"$ref": "#/definitions/count"
+					"type": "integer",
+					"description": "The total number of entities in the entityset"
 				},
 				"@iot.nextLink": {
 					"$ref": "#/definitions/nextLink"
@@ -2666,7 +2682,8 @@
 			"type": "object",
 			"properties": {
 				"@iot.count": {
-					"$ref": "#/definitions/count"
+					"type": "integer",
+					"description": "The total number of entities in the entityset"
 				},
 				"@iot.nextLink": {
 					"$ref": "#/definitions/nextLink"
@@ -2775,7 +2792,8 @@
 			"type": "object",
 			"properties": {
 				"@iot.count": {
-					"$ref": "#/definitions/count"
+					"type": "integer",
+					"description": "The total number of entities in the entityset"
 				},
 				"@iot.nextLink": {
 					"$ref": "#/definitions/nextLink"
@@ -2866,7 +2884,8 @@
 			"type": "object",
 			"properties": {
 				"@iot.count": {
-					"$ref": "#/definitions/count"
+					"type": "integer",
+					"description": "The total number of entities in the entityset"
 				},
 				"@iot.nextLink": {
 					"$ref": "#/definitions/nextLink"
@@ -3139,3 +3158,4 @@
 		}
 	}
 }
+
