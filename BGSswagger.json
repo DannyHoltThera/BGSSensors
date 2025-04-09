@@ -2363,6 +2363,7 @@
 	"definitions": {
 		"count": {
 			"type": "integer",
+			"format": "int32",
 			"description": "The total number of entities in the entityset"
 		},
 		"navigationLink": {
@@ -2377,13 +2378,15 @@
 			"type": "string",
 			"description": "The direct link to the entity"
 		},
+		"iotId": {
+			"type": "integer",
+			"format": "int32",
+			"description": "The Id of the entity"
+		},
 		"Datastream": {
 			"type": "object",
 			"properties": {
-				"@iot.id": {
-					"type": "integer",
-					"description": "The Id of the datastream"
-				},
+				"@iot.id": "#/definitions/iotId",
 				"@iot.selfLink": "#/definitions/selfLink",
 				"description": {
 					"type": "string",
@@ -2481,10 +2484,7 @@
 		"FeatureOfInterest": {
 			"type": "object",
 			"properties": {
-				"@iot.id": {
-					"type": "integer",
-					"description": "The Id of the feature of interest"
-				},
+				"@iot.id": "#/definitions/iotId",
 				"@iot.selfLink": "#/definitions/selfLink",
 				"description": {
 					"type": "string",
@@ -2564,13 +2564,8 @@
 		"FeaturesOfInterest": {
 			"type": "object",
 			"properties": {
-				"@iot.count": {
-					"type": "integer",
-					"description": "The total number of entities in the entityset"
-				},
-				"@iot.nextLink": {
-					"$ref": "#/definitions/nextLink"
-				},
+				"@iot.count": "#/definitions/count",
+				"@iot.nextLink": "#/definitions/nextLink",
 				"value": {
 					"type": "array",
 					"items": {
@@ -2582,10 +2577,7 @@
 		"Location": {
 			"type": "object",
 			"properties": {
-				"@iot.id": {
-					"type": "integer",
-					"description": "The Id of the location"
-				},
+				"@iot.id": "#/definitions/iotId",
 				"@iot.selfLink": "#/definitions/selfLink",
 				"description": {
 					"type": "string",
@@ -2653,13 +2645,8 @@
 		"Locations": {
 			"type": "object",
 			"properties": {
-				"@iot.count": {
-					"type": "integer",
-					"description": "The total number of entities in the entityset"
-				},
-				"@iot.nextLink": {
-					"$ref": "#/definitions/nextLink"
-				},
+				"@iot.count": "#/definitions/count",
+				"@iot.nextLink": "#/definitions/nextLink",
 				"value": {
 					"type": "array",
 					"items": {
@@ -2671,10 +2658,7 @@
 		"Observation": {
 			"type": "object",
 			"properties": {
-				"@iot.id": {
-					"type": "integer",
-					"description": "The Id of the observation"
-				},
+				"@iot.id": "#/definitions/iotId",
 				"@iot.selfLink": "#/definitions/selfLink",
 				"parameters": {
 					"type": "object",
@@ -2714,13 +2698,8 @@
 		"Observations": {
 			"type": "object",
 			"properties": {
-				"@iot.count": {
-					"type": "integer",
-					"description": "The total number of entities in the entityset"
-				},
-				"@iot.nextLink": {
-					"$ref": "#/definitions/nextLink"
-				},
+				"@iot.count": "#/definitions/count",
+				"@iot.nextLink": "#/definitions/nextLink",
 				"value": {
 					"type": "array",
 					"items": {
@@ -2732,13 +2711,8 @@
 		"ObservedProperties": {
 			"type": "object",
 			"properties": {
-				"@iot.count": {
-					"type": "integer",
-					"description": "The total number of entities in the entityset"
-				},
-				"@iot.nextLink": {
-					"$ref": "#/definitions/nextLink"
-				},
+				"@iot.count": "#/definitions/count",
+				"@iot.nextLink": "#/definitions/nextLink",
 				"value": {
 					"type": "array",
 					"items": {
@@ -2750,10 +2724,7 @@
 		"ObservedProperty": {
 			"type": "object",
 			"properties": {
-				"@iot.id": {
-					"type": "integer",
-					"description": "The Id of the observed property"
-				},
+				"@iot.id": "#/definitions/iotId",
 				"@iot.selfLink": "#/definitions/selfLink",
 				"definition": {
 					"type": "string",
@@ -2793,10 +2764,7 @@
 		"Sensor": {
 			"type": "object",
 			"properties": {
-				"@iot.id": {
-					"type": "integer",
-					"description": "The Id of the sensor type"
-				},
+				"@iot.id": "#/definitions/iotId",
 				"@iot.selfLink": "#/definitions/selfLink",
 				"description": {
 					"type": "string",
@@ -2836,13 +2804,8 @@
 		"Sensors": {
 			"type": "object",
 			"properties": {
-				"@iot.count": {
-					"type": "integer",
-					"description": "The total number of entities in the entityset"
-				},
-				"@iot.nextLink": {
-					"$ref": "#/definitions/nextLink"
-				},
+				"@iot.count": "#/definitions/count",
+				"@iot.nextLink": "#/definitions/nextLink",
 				"value": {
 					"type": "array",
 					"items": {
@@ -2854,10 +2817,7 @@
 		"Thing": {
 			"type": "object",
 			"properties": {
-				"@iot.id": {
-					"type": "integer",
-					"description": "The Id of the thing"
-				},
+				"@iot.id": "#/definitions/iotId",
 				"@iot.selfLink": "#/definitions/selfLink",
 				"description": {
 					"type": "string",
@@ -2925,13 +2885,8 @@
 		"Things": {
 			"type": "object",
 			"properties": {
-				"@iot.count": {
-					"type": "integer",
-					"description": "The total number of entities in the entityset"
-				},
-				"@iot.nextLink": {
-					"$ref": "#/definitions/nextLink"
-				},
+				"@iot.count": "#/definitions/count",
+				"@iot.nextLink": "#/definitions/nextLink",
 				"value": {
 					"type": "array",
 					"items": {
