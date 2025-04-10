@@ -2317,7 +2317,8 @@
 					"description": "The Id of the datastream"
 				},
 				"@iot.selfLink": {
-					"$ref": "#/definitions/selfLink"
+					"type": "string",
+					"description": "The direct link to the entity"
 				},
 				"description": {
 					"type": "string",
@@ -2391,10 +2392,12 @@
 			"type": "object",
 			"properties": {
 				"@iot.count": {
-					"$ref": "#/definitions/count"
+					"type": "integer",
+					"description": "The total number of entities in the entityset"
 				},
 				"@iot.nextLink": {
-					"$ref": "#/definitions/nextLink"
+					"type": "string",
+					"description": "The link to the next page of entities"
 				},
 				"value": {
 					"type": "array",
