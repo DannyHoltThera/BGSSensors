@@ -2309,6 +2309,39 @@
 			"type": "string",
 			"description": "The direct link to the entity"
 		},
+		"observedArea": {
+			"type": "object",
+			"properties": {
+				"type": {
+					"type": "string",
+					"description": "The type of the observed area, as defined by the OGC Observations and Measurements standard"
+				},
+				"coordinates": {
+					"type": "array",
+					"items": {
+						"type": "number"
+					},
+					"description": "The coordinates of the observed area, as defined by the OGC Observations and Measurements standard"
+				}
+			}
+		},
+		"unitOfMeasurement": {
+					"type": "object",
+					"properties": {
+						"name": {
+							"type": "string",
+							"description": "The full name of the unit of measurement"
+						},
+						"symbol": {
+							"type": "string",
+							"description": "The symbol of the unit of measurement"
+						},
+						"defintion": {
+							"type": "string",
+							"description": "A URI for the unit of measurement providing a representation of its definition, ideally following the Unified Code for Unit of Measure (UCUM)"
+						}
+					}
+				},
 		"Datastream": {
 			"type": "object",
 			"properties": {
@@ -2333,20 +2366,7 @@
 					"description": "The observation type for the datastream, as defined by the OGC Observations and Measurements standard"
 				},
 				"observedArea": {
-					"type": "object",
-					"properties": {
-						"type": {
-							"type": "string",
-							"description": "The type of the observed area, as defined by the OGC Observations and Measurements standard"
-						},
-						"coordinates": {
-							"type": "array",
-							"items": {
-								"type": "number"
-							},
-							"description": "The coordinates of the observed area, as defined by the OGC Observations and Measurements standard"
-						}
-					}
+					"$ref" : "#/definitions/observedArea"
 				},
 				"phenomenonTime": {
 					"type": "string",
@@ -2382,21 +2402,7 @@
 					"description": "The range of result times from all observations belonging to the datastream"
 				},
 				"unitOfMeasurement": {
-					"type": "object",
-					"properties": {
-						"name": {
-							"type": "string",
-							"description": "The full name of the unit of measurement"
-						},
-						"symbol": {
-							"type": "string",
-							"description": "The symbol of the unit of measurement"
-						},
-						"defintion": {
-							"type": "string",
-							"description": "A URI for the unit of measurement providing a representation of its definition, ideally following the Unified Code for Unit of Measure (UCUM)"
-						}
-					}
+					"$ref": "#/definitions/unitOfMeasurement"
 				}
 			}
 		},
@@ -3147,3 +3153,4 @@
 		}
 	}
 }
+
